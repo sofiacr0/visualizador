@@ -1,0 +1,217 @@
+table {
+    border-collapse: collapse;
+    /*definimos el color de la linea*/
+    border: 1px solid;
+    border-top: none;
+    border: none;
+    display: inline;
+}
+
+tr {
+    height: 75px;
+    border: none;
+}
+
+td {
+    border: 1px solid;
+    width: 75px;
+}
+
+td.celda {
+    background-image: none;
+}
+
+td.peon-n {
+    background-image: url(../img/normal/peon-n.png);
+    background-size: cover;
+}
+
+td.peon-b {
+    background-image: url(../img/normal/peon-b.png);
+    background-size: cover;
+}
+
+td.caballo-b {
+    background-image: url(../img/normal/caballo-b.png);
+    background-size: cover;
+}
+
+td.caballo-n {
+    background-image: url(../img/normal/caballo-n.png);
+    background-size: cover;
+}
+
+td.torre-b {
+    background-image: url(../img/normal/torre-b.png);
+    background-size: cover;
+}
+
+td.torre-n {
+    background-image: url(../img/normal/torre-n.png);
+    background-size: cover;
+}
+
+td.alfil-b {
+    background-image: url(../img/normal/alfil-b.png);
+    background-size: cover;
+}
+
+td.alfil-n {
+    background-image: url(../img/normal/alfil-n.png);
+    background-size: cover;
+}
+
+td.rey-b {
+    background-image: url(../img/normal/rey-b.png);
+    background-size: cover;
+}
+
+td.rey-n {
+    background-image: url(../img/normal/rey-n.png);
+    background-size: cover;
+}
+
+td.reina-b {
+    background-image: url(../img/normal/reina-b.png);
+    background-size: cover;
+}
+
+td.reina-n {
+    background-image: url(../img/normal/reina-n.png);
+    background-size: cover;
+}
+
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: rgb(94, 145, 92);
+}
+
+table tr:first-child td {
+    background-color: rgb(255, 255, 255) !important ;
+    border: none;
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+table tr:last-child td {
+    background-color: rgb(255, 255, 255) !important ;
+    border: none;
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+table td:first-child tr{
+    background-color: rgb(255, 255, 255) !important ;
+    border: none;
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+table td:first-child  {
+    background: #ffffff !important ;
+    border: none;
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+table td:last-child  {
+    background: #ffffff !important ;
+    border: none;
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+textarea{
+    left: 800px;
+    position: absolute;
+    font-size: 1.7em;
+    resize: none;
+}
+
+div{
+    display: inline;
+}
+
+.div2{
+    position: absolute;
+    left: 250px;
+}
+
+select{
+    font-size: 1em;
+}
+
+.button1{
+    /*paso a paso*/
+    font-size: 1em;
+    position: absolute;
+    margin-top: -350px;
+    left: 800px;
+}
+
+.button2{
+    /*completo*/
+    font-size: 1em;
+    position: absolute;
+    margin-top: -350px;
+    left: 920px;
+}
+
+.button3{
+    /*cargar partida*/
+    font-size: 1em;
+    position: absolute;
+    margin-top: -300px;
+    left: 945px;
+}
+
+.button4{
+    /*reiniciar partida*/
+    font-size: 1em;
+    position: absolute;
+    margin-top: -300px;
+    left: 800px;
+}
+
+.button5{
+    /*reglas*/
+    font-size: 1em;
+    position: absolute;
+    margin-top: -472px;
+    left: 945px;
+}
+
+.jaque {
+    color: blue; /* Color azul para Jaque */
+  }
+  
+  .jaque-mate {
+    color: red; /* Color rojo para Jaque Mate */
+  }
+  
+  h3{
+    margin-top: -270px;
+    margin-left: 793px;
+}
+
+select{
+    font-size: 1em;
+    position: absolute;
+    margin-top: -470px;
+    left: 800px;
+}
