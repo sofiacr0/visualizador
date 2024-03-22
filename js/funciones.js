@@ -195,7 +195,6 @@ function pasos() {
     out.appendChild(jaqueMateElement);
   }
 
-
   //si se come una pieza, eliminar la clase de la pieza comida
   if (checarSiCome(tokens[i])) {
     var columna = parseInt(convertirLetraANumero(posicion[0])) + 1;
